@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+/*导航*/
+.nav-hover{ left:280px;}
+/*PS作品开始*/
+    /*动画代码开始*/
+@-webkit-keyframes shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}10%,30%,50%,70%,90%{-webkit-transform:translateX(-10px);transform:translateX(-10px)}20%,40%,60%,80%{-webkit-transform:translateX(10px);transform:translateX(10px);}}
+@keyframes shake{0%,100%{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}10%,30%,50%,70%,90%{-webkit-transform:translateX(-10px);-ms-transform:translateX(-10px);transform:translateX(-10px)}20%,40%,60%,80%{-webkit-transform:translateX(10px);-ms-transform:translateX(10px);transform:translateX(10px);}}
+.shake{-webkit-animation-name:shake;animation-name:shake;}
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;} /*循环*/
+.animated.hinge{-webkit-animation-duration:1.5s;animation-duration:1.5s;}/*一次*/ 
+    /*动画代码结束*/
+    /*火焰赛车开始*/
+.ps1 .ps1-hd{ line-height: 40px; font-size: 20px;width:88px;border-bottom: 3px solid #35abe9;position: relative;font-weight: 700;color:#35abe9;padding-top:20px;text-align: center; margin-left: auto; margin-right: auto;}
+.ps1-hd .animated{ color:#35abe9;display: inline-block;cursor:text;}
+.ps-line{height:1px;background-color:#e7e7e7; margin-top:-2px;font-size: 0; overflow: hidden;}
+.ps-mn{ width: 960px;height: 520px;overflow:hidden; margin-top: 20px;margin-bottom: 20px;}
+.ps-mn:hover{box-shadow: 0 0 10px;}
+.ps2 .ps1,.ps2 .ps1 .ps-mn{ width:470px;}
+
+
+
+    /*火焰赛车结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PS作品结束*/

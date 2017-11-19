@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+/*导航*/
+.nav-hover{ left:80px;}
+/*简介开始*/
+.brief .hd-tt{ font-size: 30px; text-align: center; padding-top: 10px;line-height: 40px;font-weight: 700;}
+.expertise,.expert{ padding-left: 10px;padding-right: 10px;line-height: 40px; font-size: 18px; color:#f40;font-weight: 700;}
+.expert{ color:#333333;font-weight: normal;}
+
+/*简介结束*/
+
+
+
+

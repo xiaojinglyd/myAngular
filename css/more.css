@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+body{-moz-user-select:none; /*火狐*/ -webkit-user-select:none; /*webkit浏览器*/ -ms-user-select:none; /*IE10*/ -khtml-user-select:none; /*早期浏览器*/ user-select:none;}/*无法选中*/
+.spe1-hd .animated{ cursor:text;}
+
+.more .spe-mn{width:332px;}
+.light{width: 330px;height: 475px;border: 1px solid #000; position: relative;}
+.light:after{content:'';    
+background-image: -moz-linear-gradient( 0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 49%, rgba(255,255,255,0.30196) 50%, rgba(255,255,255,0) 100%);
+background-image: -webkit-linear-gradient( 0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 49%, rgba(255,255,255,0.30196) 50%, rgba(255,255,255,0) 100%);
+background-image: -ms-linear-gradient( 0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 49%, rgba(255,255,255,0.30196) 50%, rgba(255,255,255,0) 100%);
+position: absolute; left: -140px; top: 0px; width: 60px; height: 475px;
+transform:skew(-25deg); /*斜切*/}
+.light:hover:after{left:420px; transition:all 1s; }
+.spe-mn{text-align: center;}
+.mbtn1,.mbtn2,.pbtn,.btnStyle{ background-color: #35abe9; color:#fff;padding-left:10px;padding-right:10px;line-height: 40px;height:40px;margin-left:10px;margin-top:10px;margin-bottom:10px;display: inline-block;border-radius: 5px;font-size: 18px;cursor: pointer;-moz-user-select:none; /*火狐*/
+             -webkit-user-select:none; /*webkit浏览器*/
+             -ms-user-select:none; /*IE10*/
+             -khtml-user-select:none; /*早期浏览器*/
+             user-select:none;}
+.music{width: 200px;height: 200px;margin: 100px auto;}
+.music li{width: 200px;height: 200px;background: pink;font-size: 100px;text-align: center;line-height: 200px;color:#fff;}
+.music li:nth-of-type(1){ transform:rotateX(0deg)    translateZ(100px);-ms-transform:rotateX(0deg)    translateZ(100px); }
+.music li:nth-of-type(2){ transform:rotateX(90deg)   translateZ(100px);-ms-transform:rotateX(90deg)   translateZ(100px); }
+.music li:nth-of-type(3){ transform:rotateX(180deg)  translateZ(100px);-ms-transform:rotateX(180deg)  translateZ(100px); }
+.music li:nth-of-type(4){ transform:rotateX(270deg)  translateZ(100px);-ms-transform:rotateX(270deg)  translateZ(100px); }
+.music li:nth-of-type(5){ transform:rotateY(90deg)   translateZ(100px);-ms-transform:rotateY(90deg)   translateZ(100px); }
+.music li:nth-of-type(6){ transform:rotateY(270deg)  translateZ(100px);-ms-transform:rotateY(270deg)  translateZ(100px);}
+.music{position: relative;
+    transform-style:preserve-3d;
+	-ms-transform-style:preserve-3d;
+}
+.music img{ vertical-align: baseline;}
+.music li{position: absolute;left:0;top:0;backface-visibility:hidden;}
+/* 1.定义式 */
+@keyframes run{
+    to{transform:rotateX(720deg) rotateY(360deg);}
+}
+.run{ /* 2.调用式 */animation: run 5s linear infinite ; }
+
+.more3 .spe-mn{width:660px;height: 340px;}
+.mp4{ margin-top: 10px;}
+.more4 .spe-mn{width:470px; height:302px;}
+#firstDiv{ height: 200px;width: 200px;background-color: #ccc; color:red; position: relative;margin:10px auto;}
+
+
+.bdmoney{width: 300px;height: 300px;margin: 0px auto;position: relative;background-color: #8DD4F9;}
+.bdmoney:after,.bdmoney:before{ content:''; width: 300px; height: 300px; background: url(../img/baidu.png) no-repeat 0px -1995px; position: absolute; left: 0; top: 0; 
+transition: all .5s cubic-bezier(0.1, 0.75, 0.58, 1.66);  /*浏览器调试*/
+backface-visibility:hidden; /* 元素背部不可见 */}
+.bdmoney:before{background-position: -305px -1995px; 
+            transform: rotateY(180deg);    /*先旋转隐藏，鼠标移上转回来*/} 
+.more4.fr .spe-mn:hover .bdmoney:after{ transform: rotateY(180deg);   /*旋转180之后隐藏，到了背面*/ }
+.more4.fr .spe-mn:hover .bdmoney:before{ transform: rotateY(360deg); /*这里注意是360，不是180，旋转等是移动整个坐标系 */ }	

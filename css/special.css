@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+/*导航*/
+.nav-hover{ left:386px;}
+/*页面特效开始*/
+    /*动画代码开始*/
+@-webkit-keyframes pulse{0%{-webkit-transform:scale(1);transform:scale(1)}50%{-webkit-transform:scale(1.1);transform:scale(1.1)}100%{-webkit-transform:scale(1);transform:scale(1);}}
+@keyframes pulse{0%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}50%{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}100%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}}
+.pulse{-webkit-animation-name:pulse;animation-name:pulse;}
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;} /*循环*/
+.animated.hinge{-webkit-animation-duration:1.5s;animation-duration:1.5s;}/*一次*/ 
+    /*动画代码结束*/
+    /*焦点图开始*/
+.special1 .spe1-hd{ line-height: 40px; font-size: 20px;width:88px;border-bottom: 3px solid #35abe9;position: relative;font-weight: 700;color:#35abe9;padding-top:20px;text-align: center; margin-left: auto; margin-right: auto;}
+.spe1-hd .animated{ color:#35abe9;display: inline-block;}
+.spe-line{height:1px;background-color:#e7e7e7; margin-top:-2px;font-size: 0; overflow: hidden;}
+.spe-mn{width: 782px; margin:0 auto;overflow:hidden; margin-top: 20px;margin-bottom: 20px;border:1px solid #ccc;}
+.spe-mn:hover{box-shadow: 0 0 10px;}
+        /*焦点图案例*/
+.slider{width: 782px; height: 326px; margin:0 auto; overflow: hidden; position: relative;}
+.slider ul{width: 5000px; position: relative; z-index:2;}
+.slider ul li{width: 782px; height: 326px; position:absolute; left:0; top:0; display: none;}
+.slider ul li.first{z-index: 2; display:block;}
+
+.slider ol{width: 422px; height: 28px; background:rgba(0,0,0,0.6); position:absolute; left:0; bottom:0; padding-left: 360px; padding-top: 2px; z-index:9;}
+.slider ol li{float: left; margin-left: 20px;}
+.slider ol img{width: 60px; height: 26px; float: left; box-sizing:border-box;}
+.slider ol img.on{border:2px solid #f40;}
+        /*滚动案例*/
+.special2 .spe-mn{width: 602px;} 
+.slider2{ width: 600px;height: 200px; border: 1px solid #f00;margin: 0 auto; position: relative;overflow: hidden; }
+.slider2 ul{width:3000px; position:absolute; left:0;top:0;}
+.slider2 li{float: left;}
+        /*展示案例*/
+.special3 .spe-mn{height:420px;width:450px;overflow:hidden;}       
+#div1{height:400px;width:450px; position:relative; margin:10px auto;}
+#div1 a{position:absolute;top:0px;left:0px;font-weight:bold;padding:3px 6px; color:black; text-decoration: none;}
+#div1 a:hover{border:1px solid #eee;background:#ccc;border-radius:5px;}
+

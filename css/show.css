@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.spe1-hd .animated{ cursor:text;}
+.slider4{width: 250px; height: 250px; border: 1px solid #edafab; margin:0px auto; overflow: hidden;}
+.slider4 ol{width: 49px; border-right: 1px solid #edafab; float: left;}
+.slider4 ol li a{ height: 27px; border-bottom: 1px solid #edafab; display:block; text-align: center; line-height: 27px;}
+
+.box{width: 350px;height: 350px;border: 1px solid #000;position: relative;}
+.handle{width: 150px;height: 150px;background: #000;position: absolute;left:0;top:0; opacity:0.2; display: none;}
+.big-box{width: 344px;height: 344px;border: 1px solid #000;overflow: hidden; position: absolute;left:370px;top:0;display: none;}
+
+.slider4 ol .on a{background: url(../img/abg.gif) repeat-x;color:#fff;}
+.slider4 ul{width: 200px;float: left; position: relative;}
+.slider4 ul li{ position:absolute; left:0; top:0; }
+.show2 .spe-mn{ height:252px;width:252px;}
+
+
+
+.shbox{width: 760px;height: 280px;border: 1px solid #ccc;margin: 5px auto;}
+.shbox li{float:left; width:178px;height:125px;margin:10px 0 0 10px;position: relative;overflow: hidden;}
+.shbox li span{width:152px ;height: 24px;position:absolute;left:0;bottom:-24px;color:#fff;line-height: 24px;font-size: 14px;padding-left: 26px; background:rgba(0,0,0,0.3) url(../img/icon_bg.png) no-repeat;}
+
+.special5 .spe-mn{ width: 400px;height: 350px;}
+.threed{ border: 1px solid #ccc;float: left;position: relative;width: 200px;height: 200px;margin: 150px 50px 0;}
+.threed img{position: absolute;left:0;top:0;border-radius: 50%;}
+.threed img:nth-of-type(2){ transform-origin: 170px 30px; transition: all 0.5s linear;}
+.special5 .spe-mn:hover img:nth-of-type(2){ transform: rotateZ(180deg);} 

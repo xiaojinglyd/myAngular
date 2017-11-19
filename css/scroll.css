@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.spe1-hd .animated{ cursor:text;}
+.scroll-txt{ width:260px; border: 1px solid #ccc;padding-left:6px;padding-right: 6px; padding-bottom: 6px; }
+.scroll-txt .title{ text-align: center; height:36px;line-height: 36px; font-size: 14px; font-weight: 700; border-bottom: 1px solid #ccc;}
+.scroll-txt .scroll-txt-mn{height:260px; line-height: 26px; overflow:hidden;position:relative;}
+.scroll-txt-mn ul{ position:absolute;left:0;top:0;}
+.scroll-txt-mn li{ width:252px;padding-left: 4px; padding-right: 4px; border-bottom: 1px dotted #ccc;}
+.scroll2 .spe-mn{width: 274px; height:305px;}
+
+.scroll3 .spe-mn{width: 1200px; height:300px;margin-left:-120px;}
+.slibox{width: 1200px;height: 300px;border: 1px solid #ccc;margin: 0 auto; overflow: hidden;}
+.slibox ul{width: 2000px;}
+.slibox li{float: left; width: 200px;overflow: hidden;}

@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+/*浏览器升级开始*/
+.browsers{ padding-top: 60px;height: 1000px;}
+.brow-hd{ font-size: 40px; line-height: 80px;color:#f40;}
+.brow-hd .hdlogo{ width: 256px;height: 256px;background:url(../img/cry.png) no-repeat;}
+.brow-hd .fr{ width: 630px; }
+    /*浏览器列表*/
+.brow-list{ padding-top:40px;}
+.chrome{ width: 310px;}
+.ltlogo{ width: 120px;height: 120px;background: url(../img/chrome.jpg) no-repeat 100% 100%;margin:0 auto;}
+.download{ width: 310px;text-align: center;line-height: 40px; font-size: 20px;display: block;}
+.firefox .ltlogo{ background-image: url(../img/firefox.png);background-position: center center;}
+.opera .ltlogo{ background-image: url(../img/opera.jpg);background-position: center center;}
+.notice{ text-align: center;line-height: 60px; font-size: 28px;}
+
+/*浏览器升级结束*/

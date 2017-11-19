@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+.nav-hover{ left:160px;}
+/*项目案例开始*/
+.project .proj1-hd{ line-height: 40px; font-size: 20px;width:88px;border-bottom: 3px solid #35abe9;position: relative;font-weight: 700;color:#35abe9;padding-top:20px;}
+.proj1-hd .animated{ color:#35abe9;}
+.pro-line{height:1px;background-color:#e7e7e7; margin-top:-2px;font-size: 0; overflow: hidden;}
+    /*动画代码开始*/
+@-webkit-keyframes bounce{0%,100%,20%,50%,80%{-webkit-transform:translateY(0);transform:translateY(0)}40%{-webkit-transform:translateY(-30px);transform:translateY(-30px)}60%{-webkit-transform:translateY(-15px);transform:translateY(-15px);}}
+@keyframes bounce{0%,100%,20%,50%,80%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}40%{-webkit-transform:translateY(-30px);-ms-transform:translateY(-30px);transform:translateY(-30px)}60%{-webkit-transform:translateY(-15px);-ms-transform:translateY(-15px);transform:translateY(-15px);}}
+.bounce{-webkit-animation-name:bounce;animation-name:bounce; display:inline-block;}
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;display:inline-block;}
+.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;} /*循环*/
+.animated.hinge{-webkit-animation-duration:1.5s;animation-duration:1.5s;}/*一次*/    
+    /*动画代码结束*/
+.proj1-mn{ height:520px;margin-top:20px; margin-bottom:20px;overflow: hidden;border:1px solid #ccc;}
+.proj1-mn:hover{box-shadow: 0 0 10px;}
+.proj-text{ font-size: 16px;line-height: 60px;}
+.proj-title{ font-weight: 700;}
+    /*二楼千驹堂*/
+.proj2 .proj1-hd{ width:68px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*项目案例结束*/

@@ -1,0 +1,134 @@
+<!doctype html>
+<html ng-app="main">
+<head>
+    <meta charset="utf-8">
+    <title>我的地盘</title>
+    <meta name="baidu-site-verification" content="C66Zk0GEoy" />
+    <meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="keywords" content="web前端开发工程师,前端开发工程师,前端开发,uiqianduan.com">
+    <meta name="description" content="一个菜鸟级别的前端开发制作的网站，仅供参考，有宝贵意见请加我微信交流">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/pace-theme-flash.css" />
+    <script type="text/javascript" src="js/pace.min.js"></script>
+    <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="layer/layer.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+    <!-- 头部开始 -->
+    <header class="header">
+        <div class="wrap">
+        	<h1 class="logo fl"></h1>
+            <div class="header-mn fl"></div>
+            <span class="fr">If you want me, please contact me.</span>
+        </div>
+    </header> 
+    <!-- 头部结束 -->
+    <!-- 导航开始 -->
+    <nav class="nav">
+        <div class="wrap nav-box">
+            <div class="nav-hover">
+            </div>
+            <ul class="nav-menu fl">
+                <li class="tab"><a auto-active class="tab-list" href="#/home">首页</a></li>
+                <li class="tab"><a auto-active class="tab-list" href="#/brief">简介</a></li>
+                <li class="tab">
+                    <a class="tab-list" href="#/project">项目案例</a>
+                    <ul class="list-two">
+                        <li><a href="http://dev.lushan.igolf3d.com/" target="_blank">庐山球会</a></li>
+                        <li><a href="http://dev.mp.igolf3d.com/" target="_blank">高球圈</a></li>
+                        <li><a href="/mqjt/index.html" target="_blank">千驹堂</a></li>
+                        <li><a href="/mwbn/index.html" target="_blank">吾伴你</a></li>
+                        <li><a href="/ks/index.html" target="_blank">昆山企业</a></li>  
+                    </ul>
+                </li>
+                <li class="tab">
+                    <a auto-active class="tab-list ps" href="#/photoshop">PS作品</a>
+                    <ul class="list-two ps">
+                        <li><a href="#/photoshop/firecar">火焰赛车</a></li>
+                        <li><a href="#/photoshop/Transformers">变形金刚</a></li>
+                        <li><a href="#/photoshop/makeup">化妆品</a></li>
+                    </ul>
+                </li>
+                <li class="tab">
+                    <a auto-active class="tab-list" href="#/special">页面特效</a>
+                    <ul class="list-two">
+                        <li><a href="#/special/banner">焦点图</a></li>
+                        <li><a href="#/special/scroll">滚动</a></li>
+                        <li><a href="#/special/show">展示</a></li>
+                        <li><a href="#/special/more">更多</a></li>
+                    </ul>
+                </li>
+                <li class="tab contact-me">
+                    <a class="tab-list" href="javascript:;">联系我</a>
+                    <ul class="list-two contacts">
+                        <li class="email">
+                            <a href="mailto:xiaojingisbest@163.com" title="点击给我发邮件">Email
+                            <span class="emailnum num">xiaojingisbest@163.com</span></a>
+                        </li>
+                        <li class="phone">
+                            <a href="javascript:;" title="复制号码">电话
+                            <span class="phonenum num">15692025919</span>
+                            </a>                            
+                        </li>
+                        <li class="weixn">
+                            <a href="javascript:;" title="扫一扫">微信
+                            <span class="weixinnum num"></span>
+                            </a>    
+                        </li>
+                        <li class="qq">
+                            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=838184740&site=qq&menu=yes" title="点击这里给我发消息">QQ
+                            	<span class="qqnum num"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <input type="hidden" class="h-width" value="80" />
+    	<input type="hidden" class="h-left" value="0" />
+    </nav>
+    <!-- 导航结束 -->
+    <div class="container">        
+        <div ng-view></div>
+        <!--其他-->
+    </div>
+    <!--版权开始-->
+    <footer class="footer">
+        <div class="bdsharebuttonbox"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a><a href="#" class="bds_more" data-cmd="more"></a><a class="bds_count" data-cmd="count"></a></div>
+        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>   
+        <p>本网站属个人所有，不做商用</p>
+        <p>&copy; 2015-2017 uiqianduan.com</p>
+        <p><a href="http://tongji.baidu.com/analytics/24583318" target="_blank">百度统计</a></p>
+        <p><a id="jsl_speed_stat0" href="http://www.yunaq.com/" target="_blank">知道创宇云安全</a><script src="//static.yunaq.com/static/js/stat/picture_stat.js" charset="utf-8" type="text/javascript"></script></p>
+    </footer> 
+    <div class="toTop"></div>
+    <!--版权结束-->
+    <!-- 站内搜索 -->
+    <script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=8529717281128851790' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();</script>
+    <!-- 百度统计 -->
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?89b1940d1008f743204100e9db5cb983";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</body>
+</html>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-route/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="./view/home/home.js"></script>
+    <script src="./view/brief/brief.js"></script>
+    <script src="./view/project/project.js"></script>
+    <script src="./view/photoshop/photoshop.js"></script>
+    <script src="./view/special/special.js"></script>
+    <script src="auto-active.js"></script>

@@ -1,0 +1,68 @@
+@charset "utf-8";
+/*样式初始化*/
+html,body,div,h1,h2,h3,ul,ol,li,p,table,img,form,table,tr,td{ margin:0; padding:0;}
+ul,ol,li{ list-style:none;}
+input{ padding-top:0; padding-bottom:0; outline: 0 none;}
+select,input,img{ vertical-align:middle; border: 0 none;}
+figure,audio{ display:none;}
+/*公共样式*/
+.wrap{ width:960px; margin:0 auto;}
+body{ color:#333333; font-size:12px; font-family:Verdana,Arial; background-color: #f5fcff;}
+a{ color:#4485E0; text-decoration:none;}
+a:hover{ color:#4485E0;}
+/* 常用代码  */
+.clearfix:after{content:""; display:block; visibility:hidden; height:0; clear:both;}
+.clearfix{ *zoom:1;}
+.fr{ float:right;}
+.fl{ float:left;}
+.line{height:4px; background: -webkit-linear-gradient(bottom left, #fff, #2D94CA,#fff); background: -moz-linear-gradient(bottom left, #fff, #2D94CA,#fff); background: -o-linear-gradient(bottom left, #fff, #2D94CA,#fff);background: linear-gradient(bottom left, #fff, #2D94CA,#fff);}
+/*文字图标*/
+@font-face {font-family: 'iconfont';
+    src: url('../font/iconfont.eot'); /* IE9*/
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+/*------------------------------------------------------------*/
+	/*公共头部*/
+.header{ background-color: #f2f2f2;line-height: 40px; height: 40px;font-size: 18px;color:#35ABE9;padding-top:4px;}
+.header .logo{ position: relative;width:40px;height:40px;}
+.header .logo:before{ content: "\e608";font-family: "iconfont";position: absolute; top: 2px; left:0;font-size: 40px; color: #f40;}
+.header .header-mn{ height: 40px; width:290px; background-image:url(../img/motto1.png);background-size: cover; background-position: center; background-repeat: no-repeat;}
+    /*导航*/
+.nav{ background-color:#35abe9; height:70px;position: relative;z-index: 10;}
+.nav-box{position: relative;}
+.nav-hover{ background-color: #2D94CA;position: absolute;height: 70px;left: 0px; top: 0px; width: 0px;}		   
+.nav .nav-menu{ line-height: 70px;}	
+.nav .nav-menu .tab{ float:left; text-align: center;position: relative;z-index:3;}
+.nav-menu .tab a.on{ background-color:#2D94CA;}
+.nav-menu .tab .tab-list{ display:block; padding-left:20px; padding-right: 20px;font-size: 20px;color:#fff;}
+.nav-menu .list-two{ width:100%; line-height: 40px; font-size: 18px; display:none;position: absolute;left:0;top:70px;background-color: #2D94CA;text-align: center;}
+.list-two li a{ display:block; color:#fff;}
+.list-two li a:hover{ background-color:#35abe9;}
+.list-two li{ position: relative;}
+.list-two .num{ background-color: #35abe9;padding-left:10px;padding-right:10px;position: absolute;left:100px;top:0;color:#fff;display:none;}
+.weixinnum,.qqnum{ height: 200px;width: 200px;background-image: url(../img/weixin.png);background-repeat: no-repeat;background-size: 100% 100%;background-position: center center;}
+.qqnum{ background-image: url(../img/qq.jpg);}
+
+        /*导航小修复*/
+.nav-menu .tab .tab-list.ps{ width:66px;}
+.nav-menu .list-two.ps{ width:106px;}
+/*底部版权*/
+.bdsharebuttonbox{ position: absolute; left:50%; top:14px; margin-left:200px;font-size:20px;}
+.footer{ padding-top: 10px;padding-bottom: 10px; font-size: 14px; background-color: #35abe9; color: #fff; line-height: 30px; text-align: center;position: relative;}
+.footer p a{ color:#fff;}
+.footer p a:hover{ color:#fff;}
+/*返回顶部*/
+.toTop{ position: fixed;display: none; right: 2px; bottom: 44px; z-index: 99998;cursor: pointer; width: 40px;height: 37px;text-align: center; text-decoration: none; white-space: normal; font-size: 14px; line-height: 17px; padding-top: 3px;color: #fff; background: url(../img/toTop.png) no-repeat -42px center #666; _position: absolute;_top: expression(eval(document.documentElement.scrollTop+(document.documentElement.clientHeight||document.body.clientHeight)-this.offsetHeight-44));}
+#popup-top #popup-back{ color:#404040;}
+
+
+

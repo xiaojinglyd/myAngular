@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+/*网页主体*/
+    /*焦点图开始*/
+.slider{ height:520px; width: 100%; position: relative; overflow: hidden;}
+.slider ul{ height:520px; width: 600%; position: absolute; left: 0; top: 0; z-index: 1;}
+.slider ul li{ height: 520px; width: 16.666666666%; float: left; position: relative; overflow: hidden;}
+.slider ul li img{ position: absolute; left: 50%; top: 0; margin-left: -960px; }
+.slider ol{position: absolute; left:50%; bottom: 15px;margin-left: -32px;z-index: 3; }
+.slider ol li{width: 20px;height: 20px;background: #B7B7B7;border-radius:50%; float: left;margin: 6px; cursor: pointer; font-size: 0;}
+.slider ol .current{background: #f40; }
+        /*翻页部分*/
+.slider .prev,.slider .next{ width: 100px; height: 100px; font-size: 100px; text-align: center; line-height: 100px; position: absolute; left: 50%; top: 50%; color: #000; margin-top: -50px; background: rgba(126,124,124,0.3); margin-left: -550px; z-index: 2; display: none;}
+.slider .next{ margin-left: 450px;}
+.slider .prev:before,.slider .next:before{ content: "\e60b";font-family: "iconfont";position: absolute; top: 0px; left:6px;font-size: 90px; color: #000;}
+.slider .next:before{content: "\e60c";left:10px;}
+   /*焦点图结束*/
+    /*项目经验开始*/    
+.project-hd{ border-bottom: 4px solid #2D94CA; padding-left:10px;padding-right:10px;padding-top:20px; font-size: 20px;}
+.project-hd span{ cursor:auto;color:#fff;}
+[class^="hvr-"]{display: inline-block; vertical-align: middle;margin: ;padding: 10px;cursor: pointer;background: #35abe9;text-decoration: none;color: #333;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {color: white;}
+.hvr-bounce-to-right { display: inline-block; vertical-align: middle;-webkit-transform: translateZ(0);transform: translateZ(0);box-shadow: 0 0 1px rgba(0, 0, 0, 0); -webkit-backface-visibility: hidden; backface-visibility: hidden; -moz-osx-font-smoothing: grayscale; position: relative;-webkit-transition-property: color;transition-property: color; -webkit-transition-duration: 0.5s;transition-duration: 0.5s;}
+.hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {-webkit-transform: scaleX(1);transform: scaleX(1);-webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);}
+.hvr-bounce-to-right:before { content: ""; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: #2098d1; -webkit-transform: scaleX(0); transform: scaleX(0); -webkit-transform-origin: 0 50%; transform-origin: 0 50%; -webkit-transition-property: transform; transition-property: transform; transition-duration: 0.5s; -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out;}
+.project-mn,.project-ft{ padding-left:10px;padding-right:10px; line-height: 60px;}
+.project-ft{ padding-bottom: 20px;}
+.project-mn-l,.project-mn-r{ width:470px;}
+.project-mn-title{ font-weight: 700; font-size: 16px;}
+.project-mn-text{ font-size: 16px;}
+
+
+
+    /*项目经验结束*/
+
+
